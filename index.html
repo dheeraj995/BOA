@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>Performance Driven Mobile User Acquisition | Bay of Ads</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="We design mobile user acquisition conversion focused campaigns for Advertisers to connect with right customers.">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- Carousel -->
+    <style>
+        #brand .owl-carousel  img {
+          width: auto;
+          height: 140px;
+          margin: auto;
+        }
+
+        #brand {
+            margin-top: -40px;
+        }
+        #ipartner .owl-carousel  img {
+          height: 100px;
+          margin-bottom:0;
+        }
+
+        .team_slider img {
+          width: 100%;
+          height: 120px;
+          margin: 50px 0;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+        
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+        }
+        
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+        }
+
+        .logo img{
+            width: 220px;
+            height: 60px;
+            margin-top: -1.5rem;
+        }
+
+        @-webkit-keyframes typing {
+            from { width: 0 }
+            to { width:13em }
+        }
+
+        @-moz-keyframes typing {
+            from { width: 0 }
+            to { width:13em }
+        }
+        
+        @-webkit-keyframes blink-caret {
+            from, to { border-color: transparent }
+            70% { border-color: #fff }
+        }
+        
+        @-moz-keyframes blink-caret {
+            from, to { border-color: transparent }
+            70% { border-color: #fff }
+        }     
+        .typeeffect p  { 
+            width: 13em;
+            white-space:nowrap;
+            overflow:hidden;
+            border-right: 3px solid #fff;
+
+            /*animation-timing-function: linear;*/
+            
+            -webkit-animation: typing 5s steps(35, end), blink-caret 2s step-end infinite;
+            -moz-animation: typing 5s steps(35, end), blink-caret 2s step-end infinite;
+        }
+    </style>
+
+    <style type="text/css">
+        /*@keyframes text3 {
+            0%, 50%, 100% {
+            width: 0;
+            }
+            70%, 95% {
+            width: 13em;
+            }
+        }*/
+        
+        @keyframes text2 {
+            0%, 50%, 100% {
+            width: 0;
+            }
+            60%, 90% {
+            width: 13em;
+            }
+        }
+        @keyframes text1 {
+          0%, 50%, 100% {
+            width: 0;
+          }
+          10%, 40% {
+            width: 13em;
+          }
+        }
+
+        .text_1 {
+          animation: text1;
+        }
+        .text_2 {
+          animation: text2;
+        }
+        .text_3 {
+          animation: text1;
+        }
+        .text_1, .text_2, .text_3 {
+          overflow: hidden;
+          white-space: nowrap;
+          display: inline-block;
+          position: relative;
+          animation-duration: 10s;
+          animation-timing-function: steps(25, end);
+          animation-iteration-count: infinite;
+          color: #2ea2fa;
+        }
+        .text_1::after, .text_2::after, .text_3::after {
+          content: "_";
+          position: absolute;
+          right: 0;
+          animation: caret infinite;
+          animation-duration: 1s;
+          animation-timing-function: steps(1, end);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- header area start -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="menu-area">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="logo">
+                            <a href="Index.html">
+							<img src="assets/img/logo.png" alt="">
+							</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 hidden-xs hidden-sm">
+                        <div class="main-menu">
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li class="active"><a href="#home">Home</a></li>
+                                    <li><a href="#about">Company</a></li>
+                                    <li><a href="#pricing">Solutions</a></li>                                    
+                                    <li><a href="#team">Our Team</a></li>
+									<li><a href="#cont">Contact</a></li>                                  									
+                                    <!-- <li class="btn"><a href="http://bayofads.affise.com/signup">SignUp</a></li> -->
+									<li><a href="http://bayofads.affise.com/signin">LogIn</a></li>
+								</ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                        <div class="mobile_menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    
+    <!-- slider area start -->
+    <section class="slider-area background-image" id="home">
+        <div class="container">
+            <div class="slider-content d-flex flex-center">
+                <div class="col-md-5  col-sm-12 col-xs-12 d-flex flex-center">
+                    <div class="slider-nner">
+                        <p>We Do </p>
+						<p>Performance Driven </p> 
+                        <div class="typeeffect">
+						<p>Mobile User Acquisition</p>   </div>
+					</div>						                    
+                </div>				
+                <div class="col-md-6 col-md-offset-1 hidden-sm hidden-xs">
+                    <div class="slider-m-img">
+                        <img src="assets/img/mobile/slider-screen1.png" alt="">
+                    </div>
+                </div>
+			</div>
+				<div class="row">
+					<div class="solutn">
+						<div class="row">
+							<div class="col-md-4 col-sm-12 col-xs-4 col-xs-12">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<img src="assets/img/bg/1.png" alt=" " />
+									</div>
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<p style="font-size: 20px; font-style:bold; color: #2ea2fa;"> TECHNOLOGY </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12 col-xs-4 col-xs-12">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<img src="assets/img/bg/2.png" alt=" " />
+									</div>
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<p style="font-size: 20px; font-style:bold; color: #2ea2fa;"> INNOVATION </p>
+									</div>
+								</div>
+							</div>						
+							<div class="col-md-4 col-sm-12 col-xs-4 col-xs-12">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<img src="assets/img/bg/3.png" alt=" " />
+									</div>
+									<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+										<p style="font-size: 20px; font-style:bold; color: #2ea2fa;"> EXPERTISE </p>
+									</div>
+							</div>
+							</div>
+                        </div> 
+					</div>
+				</div>
+        </div>
+    </section>
+    <!-- slider area end -->
+
+    <!-- about area start -->
+    <section class="about-area ptb--110" id="about">
+        <div class="container">							
+				<div class="section-title text-black">	
+					<h1>
+                        <!-- <span class="text_1">Built For Performance</span> -->
+                        <span class="text_1">Find Right Customers..</span>
+                        <span class="text_2">Get More Than Installs</span>
+                        
+         <!-- <span class="txt-rotate" data-period="2000" data-rotate='[ "Built For Performance.", "Get More Than Installs.", "Find Right Customers." ]'></span> --></h1>
+				</div>			
+            <div class="row">	              
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="about-content">                                            
+                        <ul>
+                            <li><i class="fa fa-check-circle"> </i>Bay Of Ads is a leading performance based Mobile User Acquisition platform.</li>
+                            <li><i class="fa fa-check-circle"> </i>Designed with a conversion focused approach for Advertisers, Publishers & Developers.</li>
+                            <li><i class="fa fa-check-circle"> </i>Connect with the right customers and turn them in to your most Rewarding users.</li>
+                            <li><i class="fa fa-check-circle"> </i>Acquire Profitable users at scale using our AI and Machine learning Platform.</li>
+                            <li><i class="fa fa-check-circle"> </i>Worldwide verified quality traffic in CPI,  CPA, CPM, CPL and CPR models.</li>
+                            <li><i class="fa fa-check-circle"> </i>Reach 1 Billion audience with different Top performing Ad formats.</li>
+                            <li><i class="fa fa-check-circle"> </i>Fully managed platform with campaign optimization.</li>
+                            <li><i class="fa fa-check-circle"> </i>Direct Publisher sources with advanced targeting on GEO, Location, Device and more.</li>
+                            <li><i class="fa fa-check-circle"> </i>Interact with new, high-intent users in personalized manner while maximizing mobile revenues.</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+				<div class="col-md-6 hidden-sm hidden-xs">
+                    <div class="about-left-thumb">
+						<div class="row">
+							<div class="col-md-4 col-xs-12 col-sm-12">
+								<img src="assets/img/company/Mobile Ads.png" alt="">
+								<div class="col-md-12 col-xs-12 col-sm-12">
+									<p> NativeAds, VideoAds, POP-UP, Interstitial </p>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 col-sm-12">
+								<img src="assets/img/company/ROI.png" alt="">
+								<p>  High ROI Campaigns, Traffic From Direct Publishers </p>
+							</div>
+							<div class="col-md-4 col-xs-12 col-sm-12">
+								<img src="assets/img/company/Global Traffic.png" alt="">
+								<p> Fraud and Bot Filters, Custom Solutions for Valued Partners </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-md-offset-2 col-xs-12 col-sm-12">
+								<img src="assets/img/company/Reporting & Tracking.png" alt="">
+								<p> Real Time Statistics </p>
+							</div>
+							<div class="col-md-4 col-xs-12 col-sm-12">
+								<img src="assets/img/company/Support.png" alt="">
+								<p> 24/7 Support Center </p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- about area end -->
+
+    <!-- Display Section -->
+
+    <section id="display-sec">
+        <div class="container">
+            <div class="row sec-text">
+                <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                    <img src="assets/img/display/Activeusers.png" alt="">
+                    <h2>400Mn+</h2>
+                    <h5>Users Reached</h5>
+                   
+                </div>
+                <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                    <img src="assets/img/display/Engagementdelivery.png" alt="">
+                    <h2>20Mn</h2>
+                    <h5>Installs Delivered</h5>
+                </div>
+                <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                    <img src="assets/img/display/call-to-action.png" alt="">
+                    <h2>300+</h2>
+                    <h5>Advertisers</h5>
+                </div>
+                <div class="col-md-3 col-xs-6 col-lg-3 col-sm-6">
+                    <img src="assets/img/display/Connectedcountries.png" alt="">
+                    <h2>150+</h2>
+                    <h5>Connected Countries</h5>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Display Section Ends -->
+
+    <!-- pricing area start -->
+
+    <section class="pricing-area ptb--120 bg-theme" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h1>Solutions</h1>
+            </div>
+            <div class="row">
+                <div class="pricing-list">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">                            
+							<img src="assets/img/solution/Publisher1.png" alt=" " />
+							<div class="prc-head">
+                                <span>ADVERTISERS</span>                               
+                            </div>
+                            <p class="prc-list">
+                                Get access to an unparalleled audience of Mobile Users
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"> </i>Explore your user base via our Top global publishers</li>
+                                <li><i class="fa fa-check-circle"> </i>Unique traffic from 240+ GEOs</li>
+                                <li><i class="fa fa-check-circle"> </i>Smart-Tech in house fraud prevention tools</li>
+                                <li><i class="fa fa-check-circle"> </i>Automated Ad Optimization</li>
+                                <li><i class="fa fa-check-circle"> </i>Large Range of targeting Channels</li>
+                                <li><i class="fa fa-check-circle"> </i>Preferences based targeted marketing</li>
+                                <li><i class="fa fa-check-circle"> </i>Dedicated Account Manager</li>  
+                            </ul>
+                            <br/>
+                            <br/>
+							<div class="btn-area">
+                                <a href="http://bayofads.affise.com/signup">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">
+							<img src="assets/img/solution/Publisher.png" alt=" " />
+                            <div class="prc-head">
+                                <span>PUBLISHERS</span>
+                            </div>
+                            <p class="prc-list">
+                               Get high quality volume campaigns with lucrative ad formats
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"> </i>Wide range of campaign GEOs and Verticals</li>
+                                <li><i class="fa fa-check-circle"> </i>650+ active Publishers & 2000+ active campaigns</li>
+                                <li><i class="fa fa-check-circle"> </i>Demand across gaming, e-commerce, classifieds, dating, and more verticals.</li>
+                                <li><i class="fa fa-check-circle"> </i>Smartlinks to monetize publishers’ every click</li>
+                                <li><i class="fa fa-check-circle"> </i>Preference-based algorithm decision making (Eg. GEOs,Verticals, Pricing)</li>
+                                <li><i class="fa fa-check-circle"> </i>Manual and fully automated integrations</li>
+                                <li><i class="fa fa-check-circle"> </i>Custom and On-Time payment methods</li>
+                            </ul>
+                            <br/>
+                            <div class="btn-area">
+                                <a href="http://bayofads.affise.com/signup">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">
+							<img src="assets/img/solution/Developer.png" alt=" " />
+                            <div class="prc-head">
+                                <span>DEVELOPERS</span>
+                            </div>
+                            <!-- <p class="prc-list" style="word-spacing: 0.1em !important; font-size: 14px;">
+                                We are a platform to monetize your apps with a single click. We have the most effective and smartest campaigns to display on your app all the time. We bring highly competitive payout from diverse advertisers and innovative ad formats to your app. Join us to convert your users into retained customers by influencing them with precisely targeted ads.
+                            </p> -->
+                            <p class="prc-list">
+                                A place for Modern Developers to grow business
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"> </i>Monetize & Engage with personalized App recommendations</li>
+                                <li><i class="fa fa-check-circle"> </i>Increase revenue with high-quality demand</li>
+                                <li><i class="fa fa-check-circle"> </i>Smart-Tech in house fraud prevention tools</li>
+                                <li><i class="fa fa-check-circle"> </i>Customize ad experience and ad targeting</li>
+                                <li><i class="fa fa-check-circle"> </i>Enhanced ad experience for higher conversion</li>
+                                <li><i class="fa fa-check-circle"> </i>Simple setup and easy integration</li>
+                                <li><i class="fa fa-check-circle"> </i>Fully managed and comprehensive format support</li>
+                                <li><i class="fa fa-check-circle"> </i>Diverse Advertising demand through direct and programmatic channels</li>  <br>
+                            </ul>
+                            <div class="btn-area">
+                                <a href="http://bayofads.affise.com/signup">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing area end -->
+
+    <!-- Audience area Start -->
+
+    <section id="audience">
+        <div class="container">
+            <div class="section-title text-black">
+                <h1>Unique Targeting</h1>
+            </div>
+            <div class="sec-audience">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-device.svg">
+                        <p>Device Type</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-carrier.svg">
+                        <p>Mobile Carrier / Wi-Fi</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-geo.svg">
+                        <p>Country / City</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                       <img src="assets/img/target/icon_target-isp.svg">
+                        <p>IP Range / ISP</p>
+                    </div>
+                    
+                    <div class="col-md-2 col-xs-6">
+                         <img src="assets/img/target/icon_target-retarget.svg">
+                        <p>Retargeting</p>
+                    </div>
+
+                    <div class="col-md-2 col-md-offset-1 col-xs-6">
+                        <img src="assets/img/target/icon_target-os.svg">
+                        <p>OS / Browser</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-capping.svg">
+                        <p>Frequency Capping</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-keyword.svg">
+                        <p>Keyword</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-blacklist.svg">
+                        <p>White and Black Lists</p>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="assets/img/target/icon_target-time.svg">
+                        <p>Time Targeting</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audience area end -->
+
+    <!-- team area start -->
+    <section class="testimonial-area ptb--120" id="team">
+        <div class="container">
+            <div class="section-title text-black">
+                <h1>Our Team</h1>
+				<p style="word-spacing: 0.2em;"> Each of our team members is best at bringing their unique point of view to the table. We are a highly passionate committed workforce to reach world-class standards in mobile advertisement. We combine technology and innovation to deliver outstanding performance to our clients.</p>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 col-xl-6">                   
+                    <div class="testimonial-item">
+                        <div class="tauthor-meta">
+                        	<div class="author-thumb">
+                        		<img src="assets/img/team/img2.jpeg">
+                        	</div>
+                            <div class="author-info">
+                                <h4>Yogesh Sikri</h4>
+                                <span>Media Head</span>
+                            </div>
+                        </div>
+                        <div class="tauthor-text">
+                            <p style="text-align: justify;">Yogesh is passionate about creating strategies and encouraging organizations to grow business.</p>
+							<p style="text-align: justify;">He completed his technical education because he likes technology in return it helped him in understanding current technical advancements to create most innovative solutions for clients’ requirements. Working across different challenging roles helped him to become the most seasoned adtech professional.</p> 
+                            <br/>
+                            <ul  style="display: inline-block;">
+                                	<li>
+                                	    <a href="https://www.linkedin.com/in/yogesh-s-2941b1b1/" style=" font-size: 25px;"> <i class="fab fa-linkedin-in" style="color: #2ea2fa"></i></a> 
+                                	    <a href="#live:yogesh_810" style="font-size: 25px;" data-toggle="tooltip" title="live:yogesh_810"> <i class="fab fa-skype" style="color: #2ea2fa"></i> </a>
+                                	    <!-- <li><i class="fa fa-skype"></i> live:yogesh_810</li> -->
+                                	</li>
+                            	</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 col-xl-6">    
+                    <div class="testimonial-item">
+                        <div class="tauthor-meta">
+                        	<div class="author-thumb">
+                        		<img src="assets/img/team/img1.jpeg">
+                        	</div>
+                            <div class="author-info">
+                                <h4>Sourish Mukherjee</h4>
+                                <span>Manager - Business Development</span>
+                            </div>
+                        </div>
+                        <div class="tauthor-text">
+                            <p style="text-align: justify;">Sourish is taking care of business development responsibilities at Bay Of Ads for the Advertiser segment.</p>
+							<p style="text-align: justify;">Competitive analysis, Networking, Lead generation, Client growth strategy definition are part of his key roles. Throughout his experience, he has learned how important is understanding clients’ objectives and aligning them with team's expertise to yield maximum returns on strategies.</p>
+                            <br/>
+							<ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sourish-mukherjee-927209100/" style="font-size: 25px;"> <i class="fab fa-linkedin-in" style="color: #2ea2fa"></i></a> <a href="#live:sourish_17" style="font-size: 25px;" data-toggle="tooltip" title="live:sourish_17"> <i class="fab fa-skype" style="color: #2ea2fa"></i></a>
+                                    <!-- <li><i class="fa fa-skype"></i> live:sourish_17</li> -->
+                                </li>
+                            </ul>
+						</div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section> 
+	<!-- team area end -->
+
+    <!-- Case Study Section -->
+
+    <section id="case-studies">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 text-study">
+                    <h2 style="font-weight: 500; font-size: 32px;">Our</h2>
+                    <h1>Case Studies</h1>
+                    <p>Know how our team strive for quality to yield profitable results for Advertisers.</p>
+                </div>
+                <div class="col-md-8 col-lg-8 col-xs-12 col-sm-12 box-study">
+                    <div class="carousel slide" data-ride="carousel" id="casestudy-carousel">
+                                <!-- Carousel Slides / Quotes -->
+                                <div class="carousel-inner text-center">
+                                    <!-- Quote 1 -->
+                                    <div class="item active" style="color: #000;">
+                                        <div class="case-box">
+                                            <img src="assets/img/case/MMT.png" class="logo_box">
+                                            <img src="assets/img/case/MMT_infographic.png" class="infographic">
+                                        </div>
+                                        <blockquote>
+                                            <div class="row">
+                                                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+                                                    <h5>Objective</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-check-circle"> </i>Day 7 Install to Search KPI</li>
+                                                        <li><i class="fa fa-check-circle"> </i>2%-3% Transaction</li>
+                                                    </ul>
+                                                    <h5>Delivered</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-check-circle"> </i>Day 7 Install to Search Between 45%-55%</li>
+                                                        <li><i class="fa fa-check-circle"> </i>2% Transaction Achieved </li>
+                                                        <li><i class="fa fa-check-circle"> </i>20,000 Installs in 15 Days </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 2 -->
+                                    <div class="item">
+                                        <div class="case-box">
+                                            <img src="assets/img/case/PB.png" class="logo_box1">
+                                            <img src="assets/img/case/PB_infographic.png" class="infographic">
+                                        </div>
+                                        <blockquote>
+                                            <div class="row" style="color: #000;">
+                                                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+                                                    <h5>Objective</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-check-circle"> </i>5000 Installs to Registrations Per day.</li>
+                                                        <li><i class="fa fa-check-circle"> </i>Sales Lead</li>
+                                                    </ul>
+                                                    <h5>Delivered</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-check-circle"> </i>4000 App Registrations Per day.</li>
+                                                        <li><i class="fa fa-check-circle"> </i>3% leads Provided (Car,Health,Term etc).</li>
+                                                        <li><i class="fa fa-check-circle"> </i>15,000 Total Installs</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+
+                                </div>
+                                <!-- Bottom Carousel Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#casestudy-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#casestudy-carousel" data-slide-to="1"></li>
+                                </ol>
+            
+                                <!-- Carousel Buttons Next/Prev -->
+                                <a data-slide="prev" href="#casestudy-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                                <a data-slide="next" href="#casestudy-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                            </div>                    
+                        </div>          
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section End -->
+
+    <!-- Brand Slider area start -->
+    <section class="ptb--120" id="brand">
+        <div class="container">
+            <div class="section-title text-black">
+                <h1>Our Advertisers</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="screen-slider brand owl-carousel">
+                        <img src="assets/img/brand/Myntra.png">
+                        <img src="assets/img/brand/mmt.png">
+                        <img src="assets/img/brand/mpl.png">
+                        <img src="assets/img/brand/nordvpn.png">
+                        <img src="assets/img/brand/pharmeasy.png">
+                        <img src="assets/img/brand/ulu.png">
+                        <img src="assets/img/brand/1mg.png">
+                        <img src="assets/img/brand/alt.png">
+                        <img src="assets/img/brand/sheemaro.png">
+                        <img src="assets/img/brand/e.png">
+                        <img src="assets/img/brand/policybazaar.png">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Brand Slider area end -->
+
+	<!-- testimonial area start -->
+	<section class="ptb--120 bg-theme" id="chooseus">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Happy Partners</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                                <!-- Carousel Slides / Quotes -->
+                                <div class="carousel-inner text-center">
+                                    <!-- Quote 1 -->
+                                    <div class="item active" style="color: white;">
+                                        <blockquote>
+                                            <div class="row">
+                                                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+                                                    <p style="text-align:justify;">Mobupps is working with BayOfAds for several months now,Our partnership is super fun and yet super professional!We really like working with this great company;The team, The quality, The awareness of the industry- The total package.</p>
+                                                    <small style="color: white;">Daniell Vazana</small>
+                                                    <small style="color: white;">Account Manager at Mobupps</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 2 -->
+                                    <div class="item">
+                                        <blockquote>
+                                            <div class="row" style="color: white;">
+                                                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+                                                    <p style="text-align:justify;">I have been working with Bayofads for months. Deepak is a very supportive and professinal manager. And he has brought great results on cpi offers. It's a pleasure to work with him and the company. To me, he is not just a business partner but a trustful friend.</p>
+                                                    <small style="color: white;">Rachel Lei</small>
+                                                    <small style="color: white;">Account Manager at Iconpeak</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 3 -->
+                                    <div class="item">
+                                        <blockquote>
+                                            <div class="row" style="color: white;">
+                                                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+                                                    <p style="text-align:justify;">Working with Bayofads has been a great experience! They are reliable partners with understanding to every little detail. Looking for good partners and good work buddies – join their family today</p> <br/>
+                                                    <small style="color: white;">Simona Stefanova</small>
+                                                    <small style="color: white;">Account Manager at Flame Digital</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+
+                                </div>
+                                <!-- Bottom Carousel Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="assets/img/team/testimonial1.jpeg" alt="">
+                                    </li>
+                                    <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="assets/img/team/testimonial2.png" alt="">
+                                    </li>
+                                    <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="assets/img/team/testimonial3.jpeg" alt="">
+                                    </li>
+                                </ol>
+            
+                                <!-- Carousel Buttons Next/Prev -->
+                                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                            </div>                    
+                        </div>      	
+ 		    </div>
+    	</div>
+	</section>  
+    <!-- testimonial area end -->
+
+    <!-- Brand Slider area start -->
+    <section class="ptb--120" id="#ipartner">
+        <div class="container">
+            <div class="section-title text-black">
+                <h1>Our Integration Partners</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="screen-slider owl-carousel">
+                        <img src="assets/img/partner/adjust.png">
+                        <img src="assets/img/partner/appsflyer.png">
+                        <img src="assets/img/partner/Kochava.png">
+                        <img src="assets/img/partner/branch.png">
+                        <img src="assets/img/partner/singular.png">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Brand Slider area end -->
+   
+    <!-- map area start -->
+    <div id="map">
+	    <div class="mapouter">
+	        <div class="gmap_canvas">
+	           <iframe width="1376" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=noida%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+	        </div>
+	    </div>
+	</div>
+    <!-- map area end -->
+    <!-- contact area start -->
+    <div class="contact-area bg-theme">
+        <div class="container">
+            <section class="contact-inner">
+                <div class="section-title text-black">
+                    <h1>Contact</h1>
+                </div>
+                <div class="contact-flex-container" id="cont">
+                    <div class="contact-address">
+                        <h4 class="contact-title">Address</h4>
+                       
+                        <ul>
+                            <li class="h-addres"><i class="fa fa-home"></i>Noida, India</li>
+                            <!-- <li><i class="fa fa-skype"></i>live:business_3513</li> -->
+                            <li><i class="fa fa-envelope"></i>business@bayofads.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h4 class="contact-title">Drop Us A Line</h4>
+                        <form name="contform" action="form.php" method="post" onsubmit="return validation()";>
+                            <input type="text" class="input" name="name" placeholder="Name "> 
+                            <input type="text" class="input" name="company" placeholder="Company Name">
+                            <input type="text" class="input" name="email" placeholder="Email address">
+                            <input type="text" class="input"  name="contact" placeholder="Contact No.">
+                            <select class="input" name="option">
+								<option value="select">Select One</option>
+								<option value="Advertiser">Advertiser</option>
+								<option value="Publisher">Publisher</option>
+								<option value="Developer">Developer</option>														
+							</select>
+                            <textarea name="msg" class="input" placeholder="Message"></textarea>
+                            <input type="submit" id="send" value="Send">											
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- contact area end -->
+    <!-- footer area start -->
+    <footer>
+        <div class="footer-area bg-theme ptb--50">
+            <div class="container">
+                <div class="footer-inner">
+                    <ul class="fsocial">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/bay-of-ads/about/"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- google map activation start-->
+
+    <!-- google map activation end -->
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/raindrops.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_5h890WNShs_YLGivCBfs2U89qXR-7Y&callback=initMap"></script>
+    <script src="assets/js/theme.js"></script>
+	<script> 
+		function validation()								 
+		{ 
+			var name = document.forms["contform"]["name"];			 
+			var email = document.forms["contform"]["email"]; 
+			var company = document.forms["contform"]["company"]; 
+			var msg = document.forms["contform"]["msg"]; 
+			var option = document.forms["contform"]["option"]; 
+			var contact = document.forms["contform"]["contact"]; 
+		
+			if (name.value == "")								 
+			{ 
+				window.alert("Please enter your name."); 
+				name.focus(); 
+				return false; 
+			} 
+		
+			if (company.value == "")							 
+			{ 
+				window.alert("Please enter your Company Name."); 
+				name.focus(); 
+				return false; 
+			} 
+			
+			if (email.value == "")								 
+			{ 
+				window.alert("Please enter a valid e-mail address."); 
+				email.focus(); 
+				return false; 
+			} 
+		
+			if (email.value.indexOf("@", 0) < 0)				 
+			{ 
+				window.alert("Please enter a valid e-mail address."); 
+				email.focus(); 
+				return false; 
+			} 
+		
+			if (email.value.indexOf(".", 0) < 0)				 
+			{ 
+				window.alert("Please enter a valid e-mail address."); 
+				email.focus(); 
+				return false; 
+			} 
+		
+			if (contact.value == "")						 
+			{ 
+				window.alert("Please enter your contact details."); 
+				contact.focus(); 
+				return false; 
+			} 
+		
+			if (msg.value == "")					 
+			{ 
+				window.alert("Please enter your Messag"); 
+				msg.focus(); 
+				return false; 
+			} 
+		
+			if (select.selectedIndex < 1)				 
+			{ 
+				alert("Please Choose One."); 
+				select.focus(); 
+				return false; 
+			} 
+		
+			return true; 
+		}
+	</script> 
+    <!-- Slider -- >
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items:4,
+            autoheight: false,
+            autoplay: true,
+            autoplayTimeout:1000,
+            loop:true,
+            center:true,
+            margin:10,
+            URLhashListener:true,
+            autoplayHoverPause:true,
+            startPosition: 'URLHash'
+            });
+
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        delay: { "show": 500, "hide": 100 }
+        })
+    </script>
+</body>
+</html>
